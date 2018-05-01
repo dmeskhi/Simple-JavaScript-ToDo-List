@@ -22,6 +22,7 @@ function listElement() {
 	but.addEventListener("click", function() {
 		ul.removeChild(li);
 	})
+	
 	but.appendChild(document.createTextNode("Delete"));
 	li.appendChild(but);
 	ul.appendChild(li);
